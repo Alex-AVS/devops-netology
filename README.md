@@ -7,3 +7,5 @@
 - Все файлы с расширением .tfvars и файлы .json, оканчивающиеся на .tfvars
 - Все файлы с расширениями .tf и .json, назвыющиеся override или оканчивающиеся на _override
 - Все файлы, называющиеся .terraformrc и terraform.rc.
+
+newline in fix
