@@ -70,7 +70,7 @@ done
 ### Ваш скрипт:
 
 ```bash
-while ((1==1)
+while ((1==1))
 do
 	curl https://localhost:4757
 	if (($? != 0))
