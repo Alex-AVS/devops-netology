@@ -165,8 +165,8 @@ do
             if (($? != 0))
             then
                 echo " ERROR" | tee -a $log
-                echo $host > ./error
-                break 3 
+                echo $host > $err_log
+                exit 
             else
                 echo -n " OK" | tee -a $log
             fi
