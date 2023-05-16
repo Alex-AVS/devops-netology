@@ -6,7 +6,7 @@ import time
 hosts = {"drive.google.com": "0.0.0.0", "mail.google.com": "0.0.0.0", "google.com": "0.0.0.0"}
 
 while True:
-    for host in hosts.keys():
+    for host in hosts:
         last_ip = hosts[host]
         new_ip = socket.gethostbyname(host)
         if last_ip != new_ip:

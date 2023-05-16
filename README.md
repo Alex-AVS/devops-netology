@@ -16,3 +16,4 @@
 ## Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 ### [01. Командная оболочка Bash: Практические навыки](04-script-01/README.md)
 ### [02. Использование Python для решения типовых DevOps-задач](04-script-02/README.md)
+### [03. Языки разметки JSON и YAML](04-script-03/README.md)
